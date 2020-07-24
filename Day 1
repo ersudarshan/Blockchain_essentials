@@ -1,0 +1,30 @@
+1.What is your understanding of Blockchain?
+Ans- blockchain is nothing but you crate one document and one signature or hash code get assigned to that documents and if you made any 
+change in the document it get updated in all the other computers which contain the same documents and they get the previous signature
+or hash code and new documet which get assigned a new signature. If any one of the computer doesnt get the updated signature or its signature 
+is not matching with others then his/her document is tamperd or changed .
+
+2. What is the core problem blockchain trying to solve?
+Ans- Blockchain is trying to solve the problem of data security as if someone try to tamper the data it gets detected by more than one people who are sharing the same document.
+
+3. What are the few features which Blockchain will give you?
+Verifiable
+Unchangable
+tamper-proof
+Immutable
+
+4.What all things does a Block contain?
+A block contains the-
+block number
+previous signature
+current data 
+mining key
+
+5.How is the verifiability of Blockchain has been attained?
+Ans- The Blockchain can be verifiability by the data or the key which are stored in the distributed systems.
+formula:-
+Current Block Signature = Previous Block Signature + Data in the Block
+ex: BlockData = Fingerprint1
+NewData1 + previous fingerprint1 = Fingerprint2
+NewData2 + previous fingerprint2 = Fingerprint3 and
+so on
